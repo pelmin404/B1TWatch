@@ -8,4 +8,4 @@
 "R8","1","","Photo cell (CdS photoresistor)","161","https://cdn-learn.adafruit.com/downloads/pdf/photocells.pdf"
 "R9","1","1k","1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film","RC0603FR-071KL","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 "SW1","1","","Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical","PEC11S-9213K-S0015","https://www.bourns.com/docs/Product-Datasheets/PEC11S.pdf"
-"U1","1","","Seeed Studio XIAO MG24 Sense","102010610","https://files.seeedstudio.com/Bazaar/product_pdf/102010590.pdf"
+"U1","1","","EFR32MG24 Mighty Gecko 802.15.4 (Matter, Thread, Zigbee®), Bluetooth® 5.x (BLE) Transceiver 2.4GHz Evaluation Board","102010610","https://files.seeedstudio.com/Bazaar/product_pdf/102010590.pdf"
