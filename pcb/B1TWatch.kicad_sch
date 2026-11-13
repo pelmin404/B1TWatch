@@ -9544,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1578/C1854+PKCell+Datasheet+Li-Polymer+503035+500mAh+3.7V+with+PCM.pdf"
 			(at 229.616 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -9555,7 +9555,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "3.7 V Lithium-Ion Battery Rechargeable (Secondary) 500mAh"
 			(at 231.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9611,6 +9611,17 @@
 			)
 		)
 		(property "Unit price in USD as of November 13, 2026" "7.95000"
+			(at 231.14 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1578"
 			(at 231.14 113.03 90)
 			(hide yes)
 			(show_name no)
