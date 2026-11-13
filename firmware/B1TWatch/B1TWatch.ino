@@ -1,3 +1,6 @@
+// firmware is still in development and contains pseudo code
+
+
 // on-time in milliseconds after the wake trigger
 const int on_time = 5000;
 

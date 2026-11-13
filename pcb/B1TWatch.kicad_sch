@@ -186,6 +186,413 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -2594,6 +3001,12 @@
 		(uuid "8644eb12-5f93-4874-a8db-d2cb70c45ba7")
 	)
 	(junction
+		(at 226.06 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "867ae656-2419-49f2-ade0-eb8567f28074")
+	)
+	(junction
 		(at 135.89 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2666,6 +3079,12 @@
 		(uuid "bc505060-ea5a-42d4-a202-72a0613ecf2a")
 	)
 	(junction
+		(at 220.98 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd978f6-1311-436e-8620-88773f188539")
+	)
+	(junction
 		(at 25.4 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,6 +3101,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4518888-9fea-4223-a3cd-2d707deb92fb")
+	)
+	(junction
+		(at 234.95 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0f5174-324b-4da1-9bc0-ef09006a91d7")
 	)
 	(junction
 		(at 161.29 137.16)
@@ -2993,6 +3418,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b0e03e-1389-43ac-8d02-466e92e0b44f")
+	)
+	(wire
+		(pts
 			(xy 34.29 105.41) (xy 34.29 111.76)
 		)
 		(stroke
@@ -3113,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 113.03) (xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffecf42-9a85-4423-9975-ae1daa41fced")
+	)
+	(wire
+		(pts
 			(xy 228.6 96.52) (xy 228.6 97.79)
 		)
 		(stroke
@@ -3150,6 +3595,16 @@
 			(type default)
 		)
 		(uuid "553ddd93-3e10-4bf4-984a-ee09e1a2ad60")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 234.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584454d4-e538-421c-b11d-53138862df33")
 	)
 	(wire
 		(pts
@@ -3253,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 113.03) (xy 236.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a69c5f6-a67c-48ca-af38-8536d3f1b0a7")
+	)
+	(wire
+		(pts
 			(xy 160.02 105.41) (xy 161.29 105.41)
 		)
 		(stroke
@@ -3353,6 +3818,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 115.57) (xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81af7c4f-a758-4bd2-9cfd-d24e83bc6983")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8204ea88-e74c-418f-9ba4-1cc752d2f734")
+	)
+	(wire
+		(pts
 			(xy 76.2 58.42) (xy 203.2 58.42)
 		)
 		(stroke
@@ -3360,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "826448ef-8b8c-476d-8790-928f363935fc")
+	)
+	(wire
+		(pts
+			(xy 226.06 96.52) (xy 226.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834d396e-f250-4f9c-b1bd-587e172eed68")
 	)
 	(wire
 		(pts
@@ -3573,6 +4068,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 113.03) (xy 234.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5db1d9b-43e3-4830-8362-f236f3fa5c8f")
+	)
+	(wire
+		(pts
 			(xy 134.62 105.41) (xy 135.89 105.41)
 		)
 		(stroke
@@ -3763,6 +4268,26 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 96.52) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db282d7a-0e07-46ca-a132-48625c5c42e8")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 234.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0ad611-90eb-471c-86a3-737c8ecb7290")
+	)
+	(wire
+		(pts
 			(xy 50.8 99.06) (xy 50.8 105.41)
 		)
 		(stroke
@@ -3843,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 93.98) (xy 226.06 97.79)
+			(xy 226.06 93.98) (xy 226.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3951,6 +4476,26 @@
 		)
 		(uuid "ff94ff17-6ddc-4d92-a81d-767cb83573ca")
 	)
+	(label "LiPo+"
+		(at 224.79 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f95cc23-67f6-4cf7-9762-1fa0ddd50faf")
+	)
+	(label "LiPo+"
+		(at 220.98 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e364a4-306d-4f18-b209-c678ade2d6dd")
+	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 156.21 118.11 180)
@@ -4028,6 +4573,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 156.21 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4140,6 +4707,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 105.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35f8173c-02cc-4ca9-a356-aff5199165f5")
 		)
@@ -4242,6 +4831,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bc2f926-cbad-447a-89e5-5ec833124154")
 		)
@@ -4323,6 +4934,28 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
+			(at 199.39 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 199.39 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.11000"
 			(at 199.39 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -4505,6 +5138,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/bourns-inc/PEC11S-9213K-S0015/3780156"
+			(at 228.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "3.64000"
+			(at 228.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B"
 			(uuid "b909fe59-3ba8-433e-8f95-f7b2803eb947")
 		)
@@ -4607,6 +5262,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/murata-electronics/PKLCS1212E4001-R1/1219314"
+			(at 191.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "1.24000"
+			(at 191.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a8f2c93-00e9-490a-b4f0-3aa5fddad73c")
 		)
@@ -4689,6 +5366,28 @@
 			)
 		)
 		(property "MPN" "102010610"
+			(at 227.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010610/25835832"
+			(at 227.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "10.90000"
 			(at 227.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4970,6 +5669,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 54.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 54.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d121a909-11dc-4931-983c-5b1369bd7848")
 		)
@@ -5072,6 +5793,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 29.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 29.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b643d87-c6a1-43ae-a4d9-59cfce1bf7fa")
 		)
@@ -5164,6 +5907,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 130.81 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 130.81 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 130.81 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5425,6 +6190,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSS806NEH6327XTSA1/5959969"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.42000"
+			(at 186.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e71f87e-4534-4e78-a57f-84ec930c01b4")
 		)
@@ -5597,6 +6384,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dd58abf3-a0f0-460f-abe8-1c4cd0b8d2fd")
 		)
@@ -5699,6 +6508,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 80.01 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 80.01 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "528e6a05-bcdf-4964-bc8b-e53875ad0356")
 		)
@@ -5709,6 +6540,85 @@
 			(project "B1TWatch"
 				(path "/6c9e3594-09ef-49d2-bbf4-ca665cb9b73d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742ab3d6-e837-4ccb-899e-3007cd325a07")
+		(property "Reference" "#PWR011"
+			(at 242.57 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f5edff-e2e4-41ff-87fd-39a2e2fbef2a")
+		)
+		(instances
+			(project "B1TWatch"
+				(path "/6c9e3594-09ef-49d2-bbf4-ca665cb9b73d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5801,6 +6711,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f7b77fd-0280-4325-857a-d89f1bb112c7")
 		)
@@ -5881,6 +6813,28 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0756RL"
+			(at 127 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 127 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
 			(at 127 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -5985,6 +6939,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSS806NEH6327XTSA1/5959969"
+			(at 186.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.42000"
+			(at 186.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "364fb847-cb5c-471c-8462-0ae87619229b")
 		)
@@ -6072,6 +7048,28 @@
 			)
 		)
 		(property "MPN" "S2B-PH-SM4-TB"
+			(at 226.06 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655"
+			(at 226.06 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.49000"
 			(at 226.06 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -6184,6 +7182,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 80.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 80.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c550315-48a7-402c-8ae8-2f4ac3c8c7c9")
 		)
@@ -6286,6 +7306,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d4cc96f-b7e4-4e73-a4f1-c21a87de9678")
 		)
@@ -6366,6 +7408,28 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0756RL"
+			(at 25.4 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 25.4 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
 			(at 25.4 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6627,6 +7691,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700"
+			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.10000"
+			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7aef749-7368-4e83-b5f1-d75ad894971d")
 		)
@@ -6719,6 +7805,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 54.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 54.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 54.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6831,6 +7939,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 105.41 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 105.41 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75448c18-bd65-446d-a2a2-50d918d19896")
 		)
@@ -6925,6 +8055,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 212.09 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aae4c4d7-1052-4902-a9a3-f31802baa0e6")
+		(property "Reference" "J2"
+			(at 209.55 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 212.725 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" ""
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" ""
+			(at 212.09 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f891f4ac-7238-4115-a1a3-2eeea3158444")
+		)
+		(pin "2"
+			(uuid "ea341764-21f4-4bbc-a87a-a9aee1640e44")
+		)
+		(instances
+			(project "B1TWatch"
+				(path "/6c9e3594-09ef-49d2-bbf4-ca665cb9b73d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 50.8 95.25 180)
 		(unit 1)
@@ -6989,6 +8220,28 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0756RL"
+			(at 50.8 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 50.8 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
 			(at 50.8 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -7093,6 +8346,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSS806NEH6327XTSA1/5959969"
+			(at 186.69 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.42000"
+			(at 186.69 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d5a279a-9686-427a-a1ca-44bc5c0f2be0")
 		)
@@ -7186,6 +8461,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 152.4 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
+			(at 152.4 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "72ed6244-0e2f-4c14-aa79-7013becbb2e6")
 		)
@@ -7268,6 +8565,28 @@
 			)
 		)
 		(property "MPN" "161"
+			(at 190.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927"
+			(at 190.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.98000"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7380,6 +8699,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 29.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 29.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e13dd02-6286-48d2-92a3-6322400ec9c4")
 		)
@@ -7472,6 +8813,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 29.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 29.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 29.21 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7663,6 +9026,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 80.01 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 80.01 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5c20d25-c63e-41d3-bde0-215b10200467")
 		)
@@ -7765,6 +9150,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 105.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
+			(at 105.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab5e12b5-3b12-42fd-bdef-4cf09d471feb")
 		)
@@ -7857,6 +9264,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 130.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 130.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8036,6 +9465,28 @@
 				)
 			)
 		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301"
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.02800"
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cb265c6b-30ba-4f56-b1f0-84b3a7003c1e")
 		)
@@ -8046,6 +9497,140 @@
 			(project "B1TWatch"
 				(path "/6c9e3594-09ef-49d2-bbf4-ca665cb9b73d"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 231.14 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaec36f3-03ff-46ac-9b73-7bdf6047d483")
+		(property "Reference" "BT1"
+			(at 229.87 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 229.2985 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.616 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.616 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 231.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539"
+			(at 231.14 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "7.95000"
+			(at 231.14 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05d37f25-638a-4dad-89aa-b7f158fbe1c5")
+		)
+		(pin "1"
+			(uuid "455455fd-504c-405a-b604-4e42a85257c5")
+		)
+		(instances
+			(project "B1TWatch"
+				(path "/6c9e3594-09ef-49d2-bbf4-ca665cb9b73d"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8128,6 +9713,28 @@
 			)
 		)
 		(property "MPN" "APT1608SYC/J3-AMT"
+			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey link" "https://www.digikey.com/en/products/detail/kingbright/APT1608SYC-J3-AMT/17969017"
+			(at 156.21 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit price in USD as of November 13, 2026" "0.60800"
 			(at 156.21 105.41 0)
 			(hide yes)
 			(show_name no)
