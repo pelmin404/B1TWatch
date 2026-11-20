@@ -1,4 +1,4 @@
-# B1TWatch
+# B1TWatch - WIP
 ### A low power, Li-ion/LiPo battery powered binary watch with an exposed PCB, automatic brightness, and interactive settings based on a Seeed Studio XIAO MG24 Sense
 <img width="509" height="433" alt="image" src="https://github.com/user-attachments/assets/1a8aa88f-2b9a-4127-970f-969d3fdcbb0a" />
 
